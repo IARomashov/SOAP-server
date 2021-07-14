@@ -4,12 +4,12 @@ soap_server.py
 Позволяет вычесть сумму и разность чисел.  
 Пример запросов к серверу - request_soap.py.  
 
-###Запустить сервер:  
+### Запустить сервер:  
 ```shell
 python soap_server.py
 ```
 
-###Посмотреть wsdl:
+### Посмотреть wsdl:
 ```shell
 curl -X GET "http://localhost:8000/?wsdl"
 ```
